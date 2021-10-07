@@ -1,0 +1,432 @@
+/*************************************** 990PX ***************************************/
+@media only screen and (max-width: 990px) {
+  .main .container {
+    max-width: 90%;
+    /* width: 90%; */
+    height: 100%;
+  }
+
+  .main .container .logo {
+    width: 30%;
+  }
+
+  .main .container .logo img {
+    width: 100%;
+  }
+
+  .main .container h1 {
+    font-size: 50px;
+    margin: 0px;
+  }
+
+  .main .container p {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .about {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .skills {
+    width: 90%;
+  }
+
+  .work {
+    width: 90%;
+  }
+
+  .contact {
+    width: 90%;
+  }
+
+  .about .about-container .personal .details .image {
+    width: 35%;
+  }
+
+  .about .about-container .personal .personal-Info {
+    width: 60%;
+    margin: auto 0px;
+    margin-left: 5px;
+  }
+
+  .about .about-container .personal .personal-Info p {
+    margin-bottom: 5px;
+  }
+
+  .skills-popup {
+    width: 45%;
+  }
+
+  .skills-popup h2,
+  .skills-popup i {
+    font-size: 1.4rem;
+  }
+}
+
+/*************************************** 700PX ***************************************/
+@media only screen and (max-width: 700px) {
+  .main .container h1 {
+    font-size: 46px;
+    margin: 0px;
+  }
+
+  .main .container p {
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .skills .skills-container .skill-items {
+    width: 30%;
+  }
+
+  .about {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .about .about-container {
+    flex-direction: column;
+  }
+
+  .about .about-container .personal,
+  .about .about-container .education {
+    width: 90%;
+    margin: 2% auto;
+  }
+
+  .about .about-container .personal .details .image {
+    width: 30%;
+  }
+
+  .about .about-container .personal .personal-Info {
+    width: 65%;
+    margin: auto 0px;
+    margin-left: 10px;
+  }
+
+  .about .about-container .personal .personal-Info p {
+    margin-bottom: 10px;
+  }
+
+  .work .work-container-item .item-content h1 {
+    font-size: 1.4rem;
+    margin: 4px auto;
+  }
+
+  .work .work-container-item .item-content h2 {
+    font-size: 0.9rem;
+    margin: 2px auto;
+  }
+
+  .work .work-container-item .item-content p {
+    font-size: 0.8rem;
+    margin: 3px auto;
+  }
+
+  .text-footer {
+    font-size: 16px;
+  }
+
+  .skills-popup {
+    width: 80%;
+  }
+
+  .skills-popup h2,
+  .skills-popup i {
+    font-size: 1.3rem;
+  }
+
+  .skills-popup-toggle {
+    top: 340%;
+  }
+}
+
+/****************************************** 540PX ******************************************/
+@media only screen and (max-width: 540px) {
+  .nav {
+    margin: 2px auto;
+  }
+
+  .nav .logo-name {
+    font-size: 20px;
+    margin: auto 6px;
+  }
+
+  .main {
+    height: 85vh;
+  }
+
+  .main .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about .heading,
+  .skills .heading,
+  .work .heading,
+  .contact .heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .skills .skills-container .skill-items {
+    width: 40%;
+  }
+
+  .about {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .about .about-container .personal .details .image {
+    width: 35%;
+  }
+
+  .about .about-container .personal .personal-Info {
+    width: 60%;
+    margin: auto 0px;
+    margin-left: 5px;
+  }
+
+  .about .about-container .personal .personal-Info p {
+    margin-bottom: 5px;
+  }
+
+  .work .work-container-item .item-content {
+    text-align: left;
+    padding: 10px;
+    color: #10463c;
+    border-radius: 20px;
+    width: 75%;
+    /* background-color: white; */
+  }
+
+  .work .work-container-item {
+    /* margin: 5% auto; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work .work-container-item .item-image {
+    width: 50%;
+  }
+
+  .work .work-container-item .item-content {
+    width: 100%;
+  }
+
+  .work .work-container-item .item-content h1 {
+    font-size: 1.3rem;
+  }
+
+  .work .work-container-item .item-content h2 {
+    font-size: 0.9rem;
+  }
+
+  .contact .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .contact-container .contact-option1,
+  .contact .contact-container .contact-option2,
+  .contact .contact-container .or {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  .contact .contact-container .or {
+    display: flex;
+    text-align: center;
+  }
+
+  .contact .contact-container .or hr {
+    height: 2px;
+    width: 30%;
+  }
+
+  .contact .contact-container .contact-option2 .icons .fab {
+    margin: 10px;
+    padding: 14px 4px;
+    font-size: 28px;
+  }
+
+  .contact .contact-container .contact-option2 .icons .fab:hover {
+    font-size: 30px;
+  }
+
+  .text-footer {
+    font-size: 13px;
+  }
+
+  .skills-popup {
+    width: 70%;
+  }
+
+  .skills-popup h2,
+  .skills-popup i {
+    font-size: 1.2rem;
+  }
+
+  .skills-popup-toggle {
+    top: 290%;
+  }
+}
+
+/******************************************* 440PX *******************************************/
+@media only screen and (max-width: 440px) {
+  .nav .logo-name {
+    font-size: 20px;
+    margin: auto 4px;
+  }
+
+  .nav .nav-div img {
+    margin-left: 2px;
+    width: 30px;
+  }
+
+  nav .menu {
+    justify-content: right;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .main,
+  .about,
+  .work,
+  .skills,
+  .contact {
+    width: 95%;
+  }
+
+  .main .container h1 {
+    font-size: 30px;
+  }
+
+  .main .container p {
+    font-size: 16px;
+  }
+
+  .about {
+    font-size: 13px;
+  }
+
+  .about .heading,
+  .work .heading {
+    padding: 10px;
+  }
+
+  .about .about-container .personal .details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+  }
+
+  .about .about-container .personal .details .image {
+    width: 60%;
+    margin: 6px auto;
+  }
+
+  .about .about-container .personal .personal-Info {
+    width: 100%;
+    margin: auto 0px;
+    margin-left: 5px;
+  }
+
+  .about .about-container .education h2 {
+    font-size: 16px;
+  }
+
+  .about .about-container .education .head {
+    font-size: 14px;
+  }
+
+  .about .about-container .education .point {
+    font-size: 13px;
+  }
+
+  .about .resume .seeResume-btn {
+    font-size: 14px;
+    width: 150px;
+    height: 34px;
+  }
+
+  .about .resume .seeResume-btn:hover {
+    font-size: 15px;
+  }
+
+  .work .work-container-item .item-content h1 {
+    font-size: 1rem;
+    margin: 4px auto;
+  }
+
+  .work .work-container-item .item-content h2 {
+    font-size: 0.7rem;
+    margin: 2px auto;
+  }
+
+  .work .work-container-item .item-content p {
+    font-size: 0.7rem;
+    margin: 3px auto;
+  }
+
+  .contact .contact-container h3 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .contact {
+    font-size: 14px;
+  }
+
+  .text-footer {
+    font-size: 12px;
+    padding: 20px;
+  }
+
+  footer div {
+    font-size: 10px;
+  }
+
+  .skills-popup {
+    width: 90%;
+  }
+
+  .skills-popup h2,
+  .skills-popup i {
+    font-size: 1.1rem;
+  }
+
+  .skills-popup .skills-popup-item h3 {
+    font-size: 1rem;
+    margin: 0 12px;
+  }
+
+  .skills-popup .skills-popup-item p {
+    font-size: 0.9rem;
+    margin: 0 12px;
+  }
+
+  .skills-popup-toggle {
+    top: 320%;
+  }
+
+  .main .container p {
+    animation: none;
+    white-space: unset;
+    border: none;
+  }
+}
+
+.nav,
+.about,
+.main,
+.skills,
+.contact,
+.work {
+  border-radius: 0;
+  width: 100%;
+}
